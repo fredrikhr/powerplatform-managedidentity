@@ -21,10 +21,12 @@
     </fetchxml>
     <IntroducedVersion>3.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Min OAuth2 Client References" languagecode="1033" />
+      <LocalizedName description="My OAuth2 Client References" languagecode="1033" />
+      <LocalizedName description="Mine OAuth2 Klientreferanser" languagecode="1044" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Aktiv OAuth2 Client References som eies av meg" languagecode="1033" />
+      <Description description="OAuth2 Client References owned by me" languagecode="1033" />
+      <Description description="OAuth2 Klientreferanser som eies av meg" languagecode="1044" />
     </Descriptions>
   </savedquery>
 </savedqueries>

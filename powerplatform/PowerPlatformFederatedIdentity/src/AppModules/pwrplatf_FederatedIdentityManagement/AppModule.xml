@@ -11,6 +11,9 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="1" schemaName="az_keyvaultreference" />
+    <AppModuleComponent type="1" schemaName="entra_serviceprincipalreference" />
+    <AppModuleComponent type="1" schemaName="msal_confidentialclientconfiguration" />
+    <AppModuleComponent type="1" schemaName="oauth2_clientidreference" />
     <AppModuleComponent type="29" id="{8f3470dd-d9a5-f111-aaad-002248f4083c}" />
     <AppModuleComponent type="29" id="{f0f27465-dba5-f111-aaad-002248f4083c}" />
     <AppModuleComponent type="29" id="{16a8946f-e3a5-f111-aaad-002248f4083c}" />
@@ -29,8 +32,13 @@
     <AppModuleComponent type="29" id="{570b67ff-4253-4c62-8c07-db4c48dbceb9}" />
     <AppModuleComponent type="29" id="{8fb36660-af33-4b40-9b0c-f9af6672185a}" />
     <AppModuleComponent type="29" id="{c64b6757-03dd-4cdb-8aad-feb822d6c15e}" />
+    <AppModuleComponent type="60" id="{caf944d7-a461-4820-a513-3c8268e8a8e3}" />
+    <AppModuleComponent type="60" id="{1b2f8336-438f-f111-b8db-70a8a52e6a7e}" />
+    <AppModuleComponent type="60" id="{97467077-e18f-f111-b8db-70a8a52e6a7e}" />
     <AppModuleComponent type="60" id="{8239b0e6-ab94-f111-b8dc-70a8a52e6a7e}" />
+    <AppModuleComponent type="60" id="{6d656340-6e38-43dd-aaf1-9e9ef1d832ef}" />
     <AppModuleComponent type="60" id="{ba646f41-d3da-46c3-9b00-a17240778c12}" />
+    <AppModuleComponent type="60" id="{53bf95e1-5fc3-47d7-b4c3-daaac196c78f}" />
     <AppModuleComponent type="62" schemaName="pwrplatf_FederatedIdentityManagement" />
   </AppModuleComponents>
   <AppModuleRoleMaps>

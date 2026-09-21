@@ -21,10 +21,12 @@
     </fetchxml>
     <IntroducedVersion>3.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Min OAuth2 Confidential Client Configurations" languagecode="1033" />
+      <LocalizedName description="My OAuth2 Confidential Client Configurations" languagecode="1033" />
+      <LocalizedName description="Mine OAuth2 Confidential Client Configurations" languagecode="1044" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Aktiv OAuth2 Confidential Client Configurations som eies av meg" languagecode="1033" />
+      <Description description="Client Configurations owned by me" languagecode="1033" />
+      <Description description="Klientkonfigurasjoner som eies av meg" languagecode="1044" />
     </Descriptions>
   </savedquery>
 </savedqueries>

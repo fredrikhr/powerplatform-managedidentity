@@ -10,8 +10,9 @@
     <layoutxml>
       <grid name="oauth2_clientidreferences" jump="oauth2_displayname" select="1" icon="1" preview="1">
         <row name="oauth2_clientidreference" id="oauth2_clientidreferenceid">
-          <cell name="oauth2_displayname" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="oauth2_displayname" width="100" />
+          <cell name="oauth2_clientid" width="80" />
+          <cell name="oidc_authorityurl" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,8 +22,11 @@
         <entity name="oauth2_clientidreference">
           <attribute name="oauth2_clientidreferenceid" />
           <attribute name="oauth2_displayname" />
-          <attribute name="createdon" />
+          <attribute name="oauth2_clientid" />
+          <attribute name="oidc_authorityurl" />
           <order attribute="oauth2_displayname" descending="false" />
+          <order attribute="oauth2_clientid" descending="false" />
+          <order attribute="oidc_authorityurl" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -32,6 +36,7 @@
     <IntroducedVersion>3.0.0</IntroducedVersion>
     <LocalizedNames>
       <LocalizedName description="OAuth2 Client Reference Associated View" languagecode="1033" />
+      <LocalizedName description="OAuth2 Klientreferanser assosiert visning" languagecode="1044" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
