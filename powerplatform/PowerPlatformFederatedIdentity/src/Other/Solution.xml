@@ -132,6 +132,12 @@
         <Dependent type="80" schemaName="pwrplatf_FederatedIdentityManagement" displayName="Federated Identity Management" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.ModelForm.ModelFormControl" displayName="MscrmControls.ModelForm.ModelFormControl" solution="BaseCustomControlsCore (9.0.2609.1007)">
+          <package appName="Base Custom Controls" version="9.0.2609.1007">BaseCustomControlsCore (9.0.2609.1007)</package>
+        </Required>
+        <Dependent type="60" displayName="Main Form" parentDisplayName="OAuth2 Confidential Client Configuration" id="{caf944d7-a461-4820-a513-3c8268e8a8e3}" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="ManagedIdentity" solution="PowerPlatformFederatedIdentityManagedIdentity (1.0.0)" id="{1304a7e4-ed28-f011-8c4d-7c1e5226ec1f}" />
         <Dependent type="PluginPackage" displayName="pwrplatf_FederatedIdentityCredentialsPlugins" id.uniquename="pwrplatf_FederatedIdentityCredentialsPlugins" />
       </MissingDependency>

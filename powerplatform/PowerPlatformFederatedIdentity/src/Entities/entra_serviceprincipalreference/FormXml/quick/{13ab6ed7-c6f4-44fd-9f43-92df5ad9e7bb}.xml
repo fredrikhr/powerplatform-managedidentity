@@ -39,6 +39,24 @@
                         <control id="entra_clientid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="entra_clientid" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{94dc4c21-56e6-45b6-b73d-57516d39c298}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Instance" languagecode="1033" />
+                          <label description="Instans" languagecode="1044" />
+                        </labels>
+                        <control id="entra_instance" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="entra_instance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e90e7d1-cc56-43b8-b98e-2736ea332ebc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tenant" languagecode="1033" />
+                          <label description="Leier" languagecode="1044" />
+                        </labels>
+                        <control id="entra_tenant" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="entra_tenant" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -46,6 +64,9 @@
           </columns>
         </tab>
       </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

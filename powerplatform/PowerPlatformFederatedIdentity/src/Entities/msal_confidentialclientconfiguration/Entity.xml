@@ -667,8 +667,8 @@
               <displayname description="Status" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the OAuth2 Confidential Client Configuration" languagecode="1033" />
-              <Description description="Status for OAuth2 konfidensiell klient­konfigurasjon" languagecode="1044" />
+              <Description description="State of the Client Configuration" languagecode="1033" />
+              <Description description="Tilstand for klient­konfigurasjon" languagecode="1044" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Active" IsHidden="0">
@@ -686,11 +686,12 @@
             </states>
           </optionset>
           <displaynames>
-            <displayname description="Status" languagecode="1033" />
+            <displayname description="State" languagecode="1033" />
+            <displayname description="Tilstand" languagecode="1044" />
           </displaynames>
           <Descriptions>
-            <Description description="Status of the OAuth2 Confidential Client Configuration" languagecode="1033" />
-            <Description description="Status for OAuth2 konfidensiell klient­konfigurasjon" languagecode="1044" />
+            <Description description="State of the Client Configuration" languagecode="1033" />
+            <Description description="Tilstand for klient­konfigurasjon" languagecode="1044" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="statuscode">
@@ -732,8 +733,8 @@
               <displayname description="Statusårsak" languagecode="1044" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the OAuth2 Confidential Client Configuration" languagecode="1033" />
-              <Description description="Årsak til status for OAuth2 konfidensiell klient­konfigurasjon" languagecode="1044" />
+              <Description description="Status of the Client Configuration" languagecode="1033" />
+              <Description description="Status for klient­konfigurasjon" languagecode="1044" />
             </Descriptions>
             <statuses>
               <status value="1" state="0" IsHidden="0">
@@ -751,12 +752,12 @@
             </statuses>
           </optionset>
           <displaynames>
-            <displayname description="Status Reason" languagecode="1033" />
-            <displayname description="Statusårsak" languagecode="1044" />
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="Status" languagecode="1044" />
           </displaynames>
           <Descriptions>
-            <Description description="Reason for the status of the OAuth2 Confidential Client Configuration" languagecode="1033" />
-            <Description description="Årsak til status for OAuth2 konfidensiell klient­konfigurasjon" languagecode="1044" />
+            <Description description="Status of the Client Configuration" languagecode="1033" />
+            <Description description="Status for klient­konfigurasjon" languagecode="1044" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="TimeZoneRuleVersionNumber">

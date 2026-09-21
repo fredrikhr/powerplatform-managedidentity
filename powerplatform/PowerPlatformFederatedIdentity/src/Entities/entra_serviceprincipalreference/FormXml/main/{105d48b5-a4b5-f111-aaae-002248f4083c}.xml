@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{105d48b5-a4b5-f111-aaae-002248f4083c}</formid>
+    <IntroducedVersion>3.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{5a092748-e337-4bf1-ac87-bfb18bd9bdd4}" IsUserDefined="1" name="tab_general" labelid="{ebec8716-fb41-4f2f-89ac-5856d5595a65}">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Generelt" languagecode="1044" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f958db3c-a543-4f4b-ae4f-9dfacad69c54}" name="section_general" labelid="{f8e59a9e-477a-4fb0-98bc-a840c5db1d60}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Generelt" languagecode="1044" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bebb9754-746a-4ef8-8a91-7b1b1dcd7641}" labelid="{31aba9e2-f09d-4c07-8b2c-111f2efa9d28}">
+                        <labels>
+                          <label description="Display Name" languagecode="1033" />
+                          <label description="Visningsnavn" languagecode="1044" />
+                        </labels>
+                        <control id="entra_displayname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="entra_displayname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83648941-7cdb-479f-b751-bcebdecc80d4}" locklevel="0" colspan="1" rowspan="1" labelid="{aaf033f7-4021-4bf9-8a44-058d4ce537c9}">
+                        <labels>
+                          <label description="Client ID" languagecode="1033" />
+                          <label description="Klient-ID" languagecode="1044" />
+                        </labels>
+                        <control id="entra_clientid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="entra_clientid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{265c0ff6-3db2-4e13-b243-28736f8b4e26}" locklevel="0" colspan="1" rowspan="1" labelid="{7124c430-e0f8-4779-9cb9-ff65944fc837}">
+                        <labels>
+                          <label description="Instance" languagecode="1033" />
+                          <label description="Instans" languagecode="1044" />
+                        </labels>
+                        <control id="entra_instance" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="entra_instance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7db3b743-70ed-4e8b-ba8c-98389c31913e}" locklevel="0" colspan="1" rowspan="1" labelid="{5af72bd9-ec23-4068-b952-e3ea468f4634}">
+                        <labels>
+                          <label description="Tenant" languagecode="1033" />
+                          <label description="Leier" languagecode="1044" />
+                        </labels>
+                        <control id="entra_tenant" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="entra_tenant" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{9806bf92-4835-49b1-a235-273f7ed23cff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9813a0a3-478f-4643-b7e3-30e8fa26f79f}" colspan="1" rowspan="1" labelid="{c97f065b-fbe6-4017-b022-24b5762f7323}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Eier" languagecode="1044" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{54f830fe-b872-41f7-87ca-0c0aa367e22d}" locklevel="0" colspan="1" rowspan="1" labelid="{290a648a-d3a0-459d-99fb-fd6357936f86}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Status" languagecode="1044" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4b391455-ba00-481e-9175-43409ac988f1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{20e0c6a1-77d6-4020-892c-30c899c9c3cd}" showlabel="false" labelid="{6310f683-311e-4c64-a4c6-baa089de8b0e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{366594ff-173c-44fa-8e70-6744af259218}" showlabel="false" labelid="{6cff15d0-10f9-415e-8749-c5c0bcad7c85}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f15fc1aa-c721-4f44-a9b1-bbc9d0bfd840}" showlabel="false" labelid="{13f7cc06-d3bf-464d-9e74-dfd7dcf1c4e5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Simple Form" languagecode="1033" />
+      <LocalizedName description="Forenklet formular" languagecode="1044" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Simplied form for editing the basic fields of this record" languagecode="1033" />
+      <Description description="Forenklet formular for redigering av de grunnleggende feltene i oppføringen" languagecode="1044" />
+    </Descriptions>
+  </systemform>
+</forms>

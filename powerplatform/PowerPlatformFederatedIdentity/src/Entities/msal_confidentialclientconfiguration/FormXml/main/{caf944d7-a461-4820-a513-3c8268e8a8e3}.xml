@@ -5,20 +5,50 @@
     <IntroducedVersion>3.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{1d2f2293-217a-4bb4-8ead-74bb1fac9a0a}" IsUserDefined="1">
+        <tab verticallayout="true" id="{1d2f2293-217a-4bb4-8ead-74bb1fac9a0a}" IsUserDefined="1" name="tab_general">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Generelt" languagecode="1044" />
           </labels>
           <columns>
-            <column width="100%">
+            <column width="50%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e575fc36-7742-468c-9c08-28cd8d4db34e}">
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{e575fc36-7742-468c-9c08-28cd8d4db34e}" name="section_client">
                   <labels>
-                    <label description="General" languagecode="1033" />
+                    <label description="Client" languagecode="1033" />
                     <label description="Generelt" languagecode="1044" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2083f9dd-54e6-4f58-8833-4832de4971c8}" locklevel="0" showlabel="false">
+                        <labels>
+                          <label description="Client" languagecode="1033" />
+                          <label description="Klient" languagecode="1044" />
+                        </labels>
+                        <control id="msal_clientinfoid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msal_clientinfoid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af89b3c7-f6e0-4bf1-9fe7-517c26205d47}" locklevel="0">
+                        <labels>
+                          <label description="Client" languagecode="1033" />
+                          <label description="Klient" languagecode="1044" />
+                        </labels>
+                        <control id="msal_clientinfoid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msal_clientinfoid" disabled="false" uniqueid="{598a6659-05fb-4362-896e-3e23cd154e7d}">
+                          <parameters>
+                            <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="section_recorddetails" id="2389323c-a007-4472-93f5-64f9078901a2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" availableforphone="false">
+                  <labels>
+                    <label description="Record Details" languagecode="1033" />
+                    <label description="Oppføring" languagecode="1044" />
                   </labels>
                   <rows>
                     <row>
@@ -39,6 +69,81 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{1d008bca-9b28-49be-a7af-65b034249ab7}" locklevel="0">
+                        <labels>
+                          <label description="Owning Business Unit" languagecode="1033" />
+                          <label description="Eiende forretningsenhet" languagecode="1044" />
+                        </labels>
+                        <control id="owningbusinessunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="owningbusinessunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d973f1b9-5ec8-4a88-9b1e-549d5f19d522}" locklevel="0">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                          <label description="Tilstand" languagecode="1044" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2556d414-715e-4827-9a8b-baec25244f65}" locklevel="0">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                          <label description="Status" languagecode="1044" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c36189eb-a4c0-4f4a-8dad-a3e229b12e6c}" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                          <label description="Endret av" languagecode="1044" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aadb14fa-df8f-447d-9836-02ef82bd16f0}" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                          <label description="Endret den" languagecode="1044" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b813d0cb-b75b-4112-9e5c-5a8cdb5602e9}" locklevel="0">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                          <label description="Opprettet av" languagecode="1044" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dfba65be-5df0-4c34-8bdd-df9d94e914ba}" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Opprettet den" languagecode="1044" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="section_credentials" id="98f2b122-47fb-498e-ab82-2d9db3840738" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Credentials" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -46,14 +151,138 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{78e0d95b-7afb-4b1a-9f20-2cab52457af9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ede8d2a5-cccb-49d0-9db5-c53290b06dac}" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Eier" languagecode="1044" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{e2d6ced2-a142-42b8-8cf6-8b4df0e190e2}" locklevel="0">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Status" languagecode="1044" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{3d588cbb-3866-4af8-a696-91563be73a26}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0da6ce13-1c92-4217-aace-61b786c758c7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{01aa9584-3885-48db-934f-e12d8be0fee0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f13f00e4-6501-46ac-9046-251566cba8ba}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{598a6659-05fb-4362-896e-3e23cd154e7d}">
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>msal_clientinfoid</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msal_clientinfoid</BindAttribute>
+                <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msal_clientinfoid</BindAttribute>
+                <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msal_clientinfoid</BindAttribute>
+                <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Main Form" languagecode="1033" />
+      <LocalizedName description="Standardformular" languagecode="1044" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="General form" languagecode="1033" />
+      <Description description="Generelt formular" languagecode="1044" />
     </Descriptions>
   </systemform>
 </forms>
