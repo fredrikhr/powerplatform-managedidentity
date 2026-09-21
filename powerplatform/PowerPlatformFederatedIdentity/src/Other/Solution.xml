@@ -36,6 +36,7 @@
       <RootComponent type="29" id="{3a34e9fa-b27e-448d-8bf3-a864567450d7}" behavior="0" />
       <RootComponent type="29" id="{3c417e32-44a5-f111-b8dd-002248f4083c}" behavior="0" />
       <RootComponent type="29" id="{4c7227e2-95ab-4c1c-aace-ba679db9e755}" behavior="0" />
+      <RootComponent type="29" id="{4e24eda1-b0b5-f111-aaae-002248f4083c}" behavior="0" />
       <RootComponent type="29" id="{570b67ff-4253-4c62-8c07-db4c48dbceb9}" behavior="0" />
       <RootComponent type="29" id="{57b00b67-478f-f111-b8db-70a8a52e6a7e}" behavior="0" />
       <RootComponent type="29" id="{612eff3d-943d-4147-936d-0c27375de926}" behavior="0" />
@@ -78,6 +79,12 @@
           <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
         </Required>
         <Dependent type="2" schemaName="az_vaulturi" displayName="Key Vault URI" parentSchemaName="az_keyvaultreference" parentDisplayName="Azure Key Vault Reference" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="managedidentity" displayName="Managed Identity" solution="ManagedIdentityExtensions (1.0.15.0)">
+          <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent type="29" displayName="OAuth2 Confidential Client Configuration | Auto Display Name" id="{4e24eda1-b0b5-f111-aaae-002248f4083c}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="systemuser" displayName="SystemUser" parentSchemaName="" solution="msdyn_PowerAdminSettingsEmail (2.2.3517.1)" />
@@ -124,6 +131,18 @@
           <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
         </Required>
         <Dependent type="2" schemaName="az_vaulturi" displayName="Key Vault URI" parentSchemaName="az_keyvaultreference" parentDisplayName="Azure Key Vault Reference" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="managedidentityid" displayName="ManagedIdentity Id" parentSchemaName="managedidentity" parentDisplayName="Managed Identity" solution="ManagedIdentityExtensions (1.0.15.0)">
+          <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent type="29" displayName="OAuth2 Confidential Client Configuration | Auto Display Name" id="{4e24eda1-b0b5-f111-aaae-002248f4083c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="managedidentity" parentDisplayName="Managed Identity" solution="ManagedIdentityExtensions (1.0.15.0)">
+          <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent type="29" displayName="OAuth2 Confidential Client Configuration | Auto Display Name" id="{4e24eda1-b0b5-f111-aaae-002248f4083c}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">

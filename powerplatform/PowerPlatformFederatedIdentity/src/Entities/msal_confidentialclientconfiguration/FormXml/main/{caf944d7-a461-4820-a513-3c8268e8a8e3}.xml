@@ -22,7 +22,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{2083f9dd-54e6-4f58-8833-4832de4971c8}" locklevel="0" showlabel="false">
+                      <cell id="{2083f9dd-54e6-4f58-8833-4832de4971c8}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Client" languagecode="1033" />
                           <label description="Klient" languagecode="1044" />
@@ -51,15 +51,6 @@
                     <label description="Oppføring" languagecode="1044" />
                   </labels>
                   <rows>
-                    <row>
-                      <cell id="{f3b5efef-230d-4202-b3bc-5e3c302ac9a6}">
-                        <labels>
-                          <label description="Display Name" languagecode="1033" />
-                          <label description="Visningsnavn" languagecode="1044" />
-                        </labels>
-                        <control id="msal_displayname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msal_displayname" />
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{81a65c8f-2abb-405b-8e7b-d9cf42bd693c}">
                         <labels>
@@ -207,10 +198,10 @@
               <value>
                 <BindAttribute>msal_clientinfoid</BindAttribute>
                 <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
-                <FilterRelationshipName></FilterRelationshipName>
-                <DependentAttributeName></DependentAttributeName>
-                <DependentAttributeType></DependentAttributeType>
-                <AvailableViewIds></AvailableViewIds>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
                 <AllowFilterOff>false</AllowFilterOff>
                 <DisableQuickFind>false</DisableQuickFind>
                 <DisableViewPicker>false</DisableViewPicker>
@@ -230,10 +221,10 @@
               <value>
                 <BindAttribute>msal_clientinfoid</BindAttribute>
                 <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
-                <FilterRelationshipName></FilterRelationshipName>
-                <DependentAttributeName></DependentAttributeName>
-                <DependentAttributeType></DependentAttributeType>
-                <AvailableViewIds></AvailableViewIds>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
                 <AllowFilterOff>false</AllowFilterOff>
                 <DisableQuickFind>false</DisableQuickFind>
                 <DisableViewPicker>false</DisableViewPicker>
@@ -253,10 +244,10 @@
               <value>
                 <BindAttribute>msal_clientinfoid</BindAttribute>
                 <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
-                <FilterRelationshipName></FilterRelationshipName>
-                <DependentAttributeName></DependentAttributeName>
-                <DependentAttributeType></DependentAttributeType>
-                <AvailableViewIds></AvailableViewIds>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
                 <AllowFilterOff>false</AllowFilterOff>
                 <DisableQuickFind>false</DisableQuickFind>
                 <DisableViewPicker>false</DisableViewPicker>

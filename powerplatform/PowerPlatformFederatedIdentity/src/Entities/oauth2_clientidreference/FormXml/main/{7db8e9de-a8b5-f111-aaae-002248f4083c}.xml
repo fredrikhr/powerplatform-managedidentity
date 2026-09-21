@@ -22,15 +22,6 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{33f33ac3-7ed5-4ba7-aab6-e228e1ee4878}" labelid="{2e7b915c-ff82-401f-92a2-e76cd7a6e825}">
-                        <labels>
-                          <label description="Display Name" languagecode="1033" />
-                          <label description="Visningsnavn" languagecode="1044" />
-                        </labels>
-                        <control id="oauth2_displayname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="oauth2_displayname" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{1251f6d6-51fe-4b74-8505-7b62679abddb}" labelid="{0f4ebcdc-df6c-4075-ab66-9ad5ab51a15e}">
                         <labels>
                           <label description="Client ID" languagecode="1033" />
