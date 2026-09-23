@@ -18,7 +18,7 @@
                 <section showlabel="true" showbar="false" IsUserDefined="0" id="{e575fc36-7742-468c-9c08-28cd8d4db34e}" name="section_client">
                   <labels>
                     <label description="Client" languagecode="1033" />
-                    <label description="Generelt" languagecode="1044" />
+                    <label description="Klient" languagecode="1044" />
                   </labels>
                   <rows>
                     <row>
@@ -36,7 +36,7 @@
                           <label description="Client" languagecode="1033" />
                           <label description="Klient" languagecode="1044" />
                         </labels>
-                        <control id="msal_clientinfoid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msal_clientinfoid" disabled="false" uniqueid="{598a6659-05fb-4362-896e-3e23cd154e7d}">
+                        <control id="msal_clientinfoid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msal_clientinfoid" disabled="false" uniqueid="{ba93113d-32d1-4fb4-a02b-2e92d159ccc0}">
                           <parameters>
                             <DefaultViewId>{EC945694-AEFA-472E-9C02-252B03911A7D}</DefaultViewId>
                           </parameters>
@@ -132,9 +132,32 @@
                 <section name="section_credentials" id="98f2b122-47fb-498e-ab82-2d9db3840738" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Credentials" languagecode="1033" />
+                    <label description="Legitimasjon" languagecode="1044" />
                   </labels>
                   <rows>
                     <row />
+                    <row>
+                      <cell id="{4a982bfe-707e-4a47-b693-f066acbf4aeb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Credentials" languagecode="1033" />
+                          <label description="Legitimasjon" languagecode="1044" />
+                        </labels>
+                        <control id="msal_clientcredentialsid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msal_clientcredentialsid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5149827-65ed-45a1-a013-ec9abc978ba0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Credentials" languagecode="1033" />
+                          <label description="Legitimasjon" languagecode="1044" />
+                        </labels>
+                        <control id="msal_clientcredentialsid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msal_clientcredentialsid" disabled="false" uniqueid="{7d7b39c5-c73b-476f-a4f3-17265b96808f}">
+                          <parameters>
+                            <DefaultViewId>{A5A3DFD7-37FA-4133-BA07-7CD123ADD4E5}</DefaultViewId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -187,7 +210,7 @@
         <Everyone />
       </DisplayConditions>
       <controlDescriptions>
-        <controlDescription forControl="{598a6659-05fb-4362-896e-3e23cd154e7d}">
+        <controlDescription forControl="{ba93113d-32d1-4fb4-a02b-2e92d159ccc0}">
           <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
             <parameters>
               <datafieldname>msal_clientinfoid</datafieldname>
@@ -206,7 +229,7 @@
                 <DisableQuickFind>false</DisableQuickFind>
                 <DisableViewPicker>false</DisableViewPicker>
               </value>
-              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="systemuser"&gt;d26924ef-4d80-46f7-ab1d-e6ae80a54ce8&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
               <SaveMode type="Enum" static="true">0</SaveMode>
               <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
               <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
@@ -229,7 +252,7 @@
                 <DisableQuickFind>false</DisableQuickFind>
                 <DisableViewPicker>false</DisableViewPicker>
               </value>
-              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="systemuser"&gt;d26924ef-4d80-46f7-ab1d-e6ae80a54ce8&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
               <SaveMode type="Enum" static="true">0</SaveMode>
               <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
               <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
@@ -252,7 +275,83 @@
                 <DisableQuickFind>false</DisableQuickFind>
                 <DisableViewPicker>false</DisableViewPicker>
               </value>
-              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="entra_serviceprincipalreference"&gt;105d48b5-a4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="oauth2_clientidreference"&gt;7db8e9de-a8b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="systemuser"&gt;d26924ef-4d80-46f7-ab1d-e6ae80a54ce8&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{7d7b39c5-c73b-476f-a4f3-17265b96808f}">
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>msal_clientcredentialsid</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msal_clientcredentialsid</BindAttribute>
+                <DefaultViewId>{A5A3DFD7-37FA-4133-BA07-7CD123ADD4E5}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="az_keyvaultreference"&gt;96c503dd-c4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msal_clientcredentialsid</BindAttribute>
+                <DefaultViewId>{A5A3DFD7-37FA-4133-BA07-7CD123ADD4E5}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="az_keyvaultreference"&gt;96c503dd-c4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode type="Enum" static="true">0</SaveMode>
+              <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
+              <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>
+              <AddToRecentItems type="Enum" static="true">false</AddToRecentItems>
+              <DisplayPopoutCommand type="Enum" static="true">false</DisplayPopoutCommand>
+              <DisplayNavigateBackCommand type="Enum" static="true">false</DisplayNavigateBackCommand>
+              <OverrideXrmPageByFormContext type="Enum" static="true">false</OverrideXrmPageByFormContext>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msal_clientcredentialsid</BindAttribute>
+                <DefaultViewId>{A5A3DFD7-37FA-4133-BA07-7CD123ADD4E5}</DefaultViewId>
+                <FilterRelationshipName></FilterRelationshipName>
+                <DependentAttributeName></DependentAttributeName>
+                <DependentAttributeType></DependentAttributeType>
+                <AvailableViewIds></AvailableViewIds>
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms type="SingleLine.Text" static="true">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="az_keyvaultreference"&gt;96c503dd-c4b5-f111-aaae-002248f4083c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
               <SaveMode type="Enum" static="true">0</SaveMode>
               <EnableHighDensityPageHeader type="Enum" static="true">false</EnableHighDensityPageHeader>
               <DisplayFormSelector type="Enum" static="true">false</DisplayFormSelector>

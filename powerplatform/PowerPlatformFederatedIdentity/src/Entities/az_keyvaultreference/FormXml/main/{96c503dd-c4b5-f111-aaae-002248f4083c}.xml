@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{96c503dd-c4b5-f111-aaae-002248f4083c}</formid>
+    <IntroducedVersion>3.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{1eae1d7f-9a88-485d-a64d-09648156050c}" IsUserDefined="1" name="tab_general" labelid="{649c3fdc-5bef-48a3-9f10-10c801d4e9f7}">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Generelt" languagecode="1044" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2ab76df3-700a-4499-8871-c55c77c6fe49}" name="section_general" labelid="{4a801002-b59d-4bce-8657-189c049c40eb}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Generelt" languagecode="1044" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1e435b0-db62-4ca3-b7c5-bdeca93f1397}" locklevel="0" colspan="1" rowspan="1" labelid="{0de03d99-51dc-4c15-8ae1-3eaf0f291c3b}">
+                        <labels>
+                          <label description="Parent" languagecode="1033" />
+                          <label description="Overordnet" languagecode="1044" />
+                        </labels>
+                        <control id="az_templatesourceid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="az_templatesourceid" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{9F098D69-77CD-406F-8255-B3E82BC626C1}</DefaultViewId>
+                            <AvailableViewIds>{9F098D69-77CD-406F-8255-B3E82BC626C1}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{251892f2-b0f6-4816-96bb-b2ef8056176f}" locklevel="0" colspan="1" rowspan="1" labelid="{eb06872d-9406-4def-bbb8-0c666bf48bd0}">
+                        <labels>
+                          <label description="Parent (Component)" languagecode="1033" />
+                          <label description="Overordnet (Komponent)" languagecode="1044" />
+                        </labels>
+                        <control id="az_templatesourcecomponentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="az_templatesourcecomponentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{08c438db-6560-467e-b27a-5f0b844dc818}" locklevel="0" colspan="1" rowspan="1" labelid="{4afe904e-26d6-461f-851f-b5a74473fdc6}">
+                        <labels>
+                          <label description="Key Vault Name" languagecode="1033" />
+                          <label description="Key Vault Navn" languagecode="1044" />
+                        </labels>
+                        <control id="az_templatevaultname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="az_templatevaultname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2bd123a7-8746-47b9-b23c-c45dfc477a63}" locklevel="0" colspan="1" rowspan="1" labelid="{3f3c951b-ea38-43e0-b462-b6f96ea49911}">
+                        <labels>
+                          <label description="Key Vault URI" languagecode="1033" />
+                          <label description="Key Vault URI" languagecode="1044" />
+                        </labels>
+                        <control id="az_vaulturi" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="az_vaulturi" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3cc7db0-8c87-4240-aba8-854c9261e93e}" locklevel="0" colspan="1" rowspan="1" labelid="{1fb5777f-5e3d-4b44-ac01-01e7aa4c9363}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Navn" languagecode="1044" />
+                        </labels>
+                        <control id="az_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="az_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58392bfc-428d-449d-a597-203655d1cd46}" locklevel="0" colspan="1" rowspan="1" labelid="{80744e1d-69ee-437f-aab1-ae756068c1f5}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Navn" languagecode="1044" />
+                        </labels>
+                        <control id="az_templatename" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="az_templatename" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ee68c29-4732-46c0-89ac-78c28ec1dc5c}" locklevel="0" colspan="1" rowspan="1" labelid="{b1309a31-2331-49f5-a4e9-a6e806ba1340}">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                          <label description="Type" languagecode="1044" />
+                        </labels>
+                        <control id="az_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="az_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{254f8c6a-dc59-436a-81fe-8d9ebcac5c9f}" locklevel="0" colspan="1" rowspan="1" labelid="{aa899893-2dfd-48c7-b01a-5731dfadd5ab}">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                          <label description="Type" languagecode="1044" />
+                        </labels>
+                        <control id="az_templatetype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="az_templatetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{592f702e-1865-4793-ba6c-7be7f853ab7a}" locklevel="0" colspan="1" rowspan="1" labelid="{16eaeb76-70f5-439d-884a-4ed21dc6500d}">
+                        <labels>
+                          <label description="Version" languagecode="1033" />
+                          <label description="Versjon" languagecode="1044" />
+                        </labels>
+                        <control id="az_version" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="az_version" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4ff6a3aa-3e9f-41c7-8f2b-4210c2c29339}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{61d17720-55ba-41f1-9984-adec82f3b626}" locklevel="0" colspan="1" rowspan="1" labelid="{8c59eaca-b401-4e7b-b4ab-e1da2d831333}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Eier" languagecode="1044" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{11500823-aa76-4932-a749-f66780cceda5}" locklevel="0" colspan="1" rowspan="1" labelid="{7fe86dd6-82c9-4299-89b3-3f1c190674a8}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Status" languagecode="1044" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{98807ec9-74aa-4d48-b22f-6e034aa7bfa7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4475d72d-b41d-4b70-9f14-b6bc84926216}" showlabel="false" labelid="{5c4b7e34-4fcc-4406-b296-9057330f3206}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dcc2e182-8d00-4372-9ca6-1994ff8e195a}" showlabel="false" labelid="{817ac184-9792-4c6c-b6f7-85dc8b110c86}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6a4dd9a8-49c3-459b-9785-2fcce24ccda9}" showlabel="false" labelid="{8839cd31-5211-4e03-8371-136402290a57}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Simple Form" languagecode="1033" />
+      <LocalizedName description="Forenklet formular" languagecode="1044" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Simplied form for editing the basic fields of this record" languagecode="1033" />
+      <Description description="Forenklet formular for redigering av de grunnleggende feltene i oppføringen" languagecode="1044" />
+    </Descriptions>
+  </systemform>
+</forms>

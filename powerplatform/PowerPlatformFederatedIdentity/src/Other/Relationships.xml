@@ -18,6 +18,8 @@
   <EntityRelationship Name="msal_confidentialclientconfiguration_clientinfo_managedidentity" />
   <EntityRelationship Name="msal_confidentialclientconfiguration_clientinfo_oauth2_clientidreference" />
   <EntityRelationship Name="msal_confidentialclientconfiguration_clientinfo_systemuserapplicationid" />
+  <EntityRelationship Name="msal_confidentialclientconfiguration_credentials_az_keyvaultreference" />
+  <EntityRelationship Name="msal_confidentialclientconfiguration_credentials_keyvaultreferencecomponent" />
   <EntityRelationship Name="owner_az_keyvaultreference" />
   <EntityRelationship Name="owner_entra_serviceprincipalreference" />
   <EntityRelationship Name="owner_msal_confidentialclientconfiguration" />

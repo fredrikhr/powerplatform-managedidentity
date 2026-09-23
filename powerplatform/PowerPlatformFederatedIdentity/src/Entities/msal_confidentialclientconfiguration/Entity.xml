@@ -302,6 +302,46 @@
             <Description description="Unik identifikator for representanten som endret oppføringen." languagecode="1044" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="msal_clientcredentialsid">
+          <Type>lookup</Type>
+          <Name>msal_clientcredentialsid</Name>
+          <LogicalName>msal_clientcredentialsid</LogicalName>
+          <RequiredLevel>recommended</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <ExternalName>msal_clientcredentialsid</ExternalName>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>polymorphic</LookupStyle>
+          <displaynames>
+            <displayname description="Credentials" languagecode="1033" />
+            <displayname description="Legitimasjon" languagecode="1044" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The credentials to use for authenticating the client application" languagecode="1033" />
+            <Description description="Legitimasjonen som brukes for å autentifisere klientapplikasjonen" languagecode="1044" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="msal_clientinfoid">
           <Type>lookup</Type>
           <Name>msal_clientinfoid</Name>

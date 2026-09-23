@@ -66,6 +66,12 @@
         <Required type="1" schemaName="keyvaultreference" displayName="Key Vault Reference" solution="ManagedIdentityExtensions (1.0.15.0)">
           <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
         </Required>
+        <Dependent type="1" schemaName="keyvaultreference" displayName="Key Vault Reference" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="keyvaultreference" displayName="Key Vault Reference" solution="ManagedIdentityExtensions (1.0.15.0)">
+          <package appName="ManagedIdentityApp Package" version="1.0.0.0">ManagedIdentityApp_Anchor (1.0.0.0)</package>
+        </Required>
         <Dependent type="2" schemaName="az_name" displayName="Name" parentSchemaName="az_keyvaultreference" parentDisplayName="Azure Key Vault Reference" />
       </MissingDependency>
       <MissingDependency>
